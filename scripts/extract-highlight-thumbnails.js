@@ -30,8 +30,8 @@ async function extractThumbnails() {
         console.log('Extracting highlight thumbnails from all language versions...');
         
         const languageUrls = [
-            { url: 'https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highlights.json', folder: 'ww' },
-            { url: 'https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/zh-CN/highlights.json', folder: 'cn' }
+            { url: 'https://raw.githubusercontent.com/matttttt/CSGO-API/main/public/api/en/highlights.json', folder: 'ww' },
+            { url: 'https://raw.githubusercontent.com/matttttt/CSGO-API/main/public/api/zh-CN/highlights.json', folder: 'cn' }
         ];
         // Depending on the tournament event, the time of the highlight may be different.
         const tournamentEventTimes = {
