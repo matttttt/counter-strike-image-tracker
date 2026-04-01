@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const RAW_GITHUB_BASE = 'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/';
+const RAW_GITHUB_BASE = 'https://raw.githubusercontent.com/matttttt/counter-strike-image-tracker/main/static/panorama/images/';
 const ECON_DIR = path.join(__dirname, '..', 'static', 'panorama', 'images', 'econ');
 const IMAGES_JSON_PATH = path.join(__dirname, '..', 'static', 'images.json');
 
