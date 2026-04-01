@@ -18,7 +18,7 @@ const TYPE = TYPE_INDEX !== -1 ? flags[TYPE_INDEX + 1] || '' : '';
 // Configuration constants
 const CONFIG = {
 	STATIC_DIR: path.join(__dirname, "..", "static"),
-	ITEMS_API_BASE_URL: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en",
+	ITEMS_API_BASE_URL: "https://raw.githubusercontent.com/matttttt/CSGO-API/main/public/api/en",
 	MARKET_BASE_URL: "https://steamcommunity.com/market",
 	MAX_DURATION: 3600 * 1000 * 5.5, // 5.5 hours
 	DELAY_PER_ITEM: 10 * 1000, // 10 seconds
