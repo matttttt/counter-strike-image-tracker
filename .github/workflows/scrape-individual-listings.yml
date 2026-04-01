@@ -71,7 +71,7 @@ jobs:
       - name: Trigger CSGO-API update
         if: steps.auto-commit.outputs.changes_detected == 'true'
         run: |
-          gh api repos/ByMykel/CSGO-API/dispatches \
+          gh api repos/matttttt/CSGO-API/dispatches \
             -f event_type=game-images-updated
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
