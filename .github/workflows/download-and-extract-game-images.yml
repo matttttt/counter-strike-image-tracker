@@ -63,9 +63,9 @@ jobs:
       - name: Cleanup temp directory
         run: rm -rf ./temp
 
-      - name: Trigger CSGO-API update
-        run: |
-          gh api repos/ByMykel/CSGO-API/dispatches \
-            -f event_type=game-images-updated
-        env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+      #- name: Trigger CSGO-API update
+      #  run: |
+      #    gh api repos/ByMykel/CSGO-API/dispatches \
+     #       -f event_type=game-images-updated
+     #   env:
+     #     GH_TOKEN: ${{ secrets.PAT_TOKEN }}
